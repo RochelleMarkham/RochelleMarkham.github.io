@@ -1,0 +1,83 @@
+html{
+    font-size: 16px;
+}
+
+#headerImg{
+    margin: -3px;
+}
+
+#header{
+    background-color: aqua;
+    margin-top: -10px;
+    margin-left: -8px;
+    height: 297px;
+}
+
+nav{
+    float: right;
+}
+
+nav, li{
+    list-style-type: none;
+    display: inline;
+    padding: 35px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+}
+
+nav, li, a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-top: -25px;
+}
+
+h1{
+    font-family: 'Montez', cursive;
+    display: block;
+    clear: right;
+    margin-top: -250px;
+    margin-left: 130px;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+h3{
+    font-family: 'Heebo', sans-serif;
+    margin-left: 40px;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+#headshot{
+    height: 400px;
+    float: right;
+    display: inline;
+    margin-top: -100px;
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+figure{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+#Bio{
+    margin-left: -25px;
+}
