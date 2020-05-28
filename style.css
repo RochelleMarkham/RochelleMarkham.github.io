@@ -1,47 +1,34 @@
-html{
-    font-size: 16px;
-}
-
-#headerImg{
-    margin: -3px;
-}
-
+/*Header styling*/
 #header{
     background-color: aqua;
-    margin-top: -10px;
-    margin-left: -8px;
-    height: 297px;
+    margin-top: -1%;
+    margin-left: -1%;
+    height: 300px;
+    margin-right: -1%;
+    position: static;
+    min-width: 800px;
 }
 
-nav{
-    float: left;
+/*Positioning for Header image*/
+#headerImg{
+    margin: 0%;
+    height: 300px;
+    position: static;
+    clear: right;
 }
 
-nav, li{
-    list-style-type: none;
-    display: inline;
-    padding: 20px;
-    font-family: 'Heebo', sans-serif;
-    font-size: 25px;
-    margin-left: 140px;
-}
-
-nav, li, a{
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    margin-top: -40px;
-}
-
+/*"Rochelle Markham" header styling*/
 h1{
     font-family: 'Montez', cursive;
     display: block;
     clear: right;
-    margin-top: -250px;
-    margin-left: 130px;
-    font-size: 60px;
+    margin-top: -25%;
+    margin-left: 12%;
+    font-size: 400%;
+    margin-left: 170px;
 }
 
+/*"Web Developer" header styling*/
 h2{
     font-family: 'Kaushan Script', cursive;
     font-size: 30px;
@@ -49,42 +36,7 @@ h2{
     margin-top: -50px;
 }
 
-h3{
-    font-family: 'Heebo', sans-serif;
-    margin-left: 40px;
-    font-size: 45px;
-    font-weight: 400;
-    margin-bottom: 0px;
-    margin-top: 15px;
-}
-
-#headshot{
-    height: 400px;
-    float: right;
-    display: inline;
-    margin-top: -100px;
-    margin-right: 50px;
-    margin-left: 25px;
-}
-
-figure{
-    float: left;
-    width: 25%;
-    text-align: center;
-}
-
-p{
-    font-family: 'Heebo', sans-serif;
-    font-size: 20px;
-    margin-top: 0px;
-    margin-left: 50px;
-    text-indent: 30px;
-}
-
-#Bio, #PortSpec{
-    margin-left: -25px;
-}
-
+/*Social media link styling*/
 #facebook, #pinterest, #instagram, #twitter{
     height: 50px;
     float: right;
@@ -92,6 +44,120 @@ p{
     margin-top: 15px;
 }
 
-#facebook{
-    margin-right: 100px;
+/*social media positioning from the right*/
+#pinterest{
+    padding-right: 8%;
+}
+
+/*social media hover glow*/
+#facebook:hover, #pinterest:hover, #instagram:hover, #twitter:hover{
+    box-shadow: 3px 3px 3px darkcyan;
+}
+
+/*navigation list styling*/
+ul{
+    list-style-type: none !important;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    display: inline;
+    font-size: 150% ;
+}
+
+/*navigation list positioning*/
+li{
+    float: left;
+    margin-left: 12%;
+}
+
+/*navigation link styling*/
+li a{
+    display: inline-block;
+    padding-left: 80px;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+/*link hover glow*/
+a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+/*visited links styling*/
+a:visited{
+    text-decoration: none;
+}
+
+/*body background styling*/
+body{
+    background-image: linear-gradient(to bottom right, white, rgba(0,255,255,.5));
+    min-width: 920px;
+}
+
+/*Body headings styling*/
+h3{
+    font-family: 'Heebo', sans-serif;
+    margin-left: -7%;
+    font-size: 45px; 
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-right: 10%;
+    clear: right;
+    padding-left: 10%;
+    position: static;
+    z-index: 1;
+}
+
+/*About me section photo styling*/
+#headshot{
+    height: 400px;
+    float: right;
+    display: inline;
+    margin-top: -100px;
+    margin-right: 50px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 5px grey;
+    clear: both;
+    position: static;
+    z-index: 1
+} 
+
+/*paragraph styling*/
+p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+}
+
+/*about me section paragraph spacing*/
+.about{
+    margin-left: 5%;
+}
+
+/*Gallery image/link styling*/
+figure{
+    float: left;
+    width: 400px;
+    position: flex;
+    color: black; 
+    margin: 25px;
+    display: inline;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*Gallery image/link hover styling*/
+figure:hover{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+/*gallery image shadow/positioning*/
+p > img{
+    box-shadow: 5px 5px 5px grey;
+    clear: left;
 }
