@@ -161,3 +161,84 @@ p > img{
     box-shadow: 5px 5px 5px grey;
     clear: left;
 }
+
+#Video1{
+    width: 100px;
+}
+
+a.videos{
+    display: none;
+}
+
+#Presentations:hover a.videos{
+    display: block;
+    right: 500px;
+    top: -400px;    
+}
+
+.modalContent1 {
+	position: fixed;
+	font-family: 'Heebo', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	opacity:0;
+	pointer-events: none;
+    background: rgba(255, 255, 255, .7);
+}
+
+.modalContent1:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalContent1 > div {
+    background: rgb(228, 232, 235);
+    width: 550px;
+	position: relative;
+	margin: 1% auto;
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+}
+
+.modalContent2 {
+	position: fixed;
+	font-family: 'Heebo', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	opacity:0;
+	pointer-events: none;
+    background: rgba(255, 255, 255, .7);
+}
+
+.modalContent2:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalContent2 > div {
+    background: rgb(228, 232, 235);
+    width: 410px;
+	position: relative;
+	margin: 1% auto;
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+}
+
+.close {
+	background: grey;
+	color: white;
+	position: absolute;
+	right: -12px;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+    text-align: center;
+	font-weight: bold;
+	border-radius: 3px;
+}
