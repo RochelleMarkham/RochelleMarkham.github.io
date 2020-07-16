@@ -162,7 +162,7 @@ p > img{
     clear: left;
 }
 
-.modalContent1, .modalContent2, .modalContent3 {
+.modalContent1, .modalContent2, .modalContent3, .modalContent4 {
 	position: fixed;
 	font-family: 'Heebo', sans-serif;
 	top: 0;
@@ -175,12 +175,12 @@ p > img{
     background: rgba(255, 255, 255, .7);
 }
 
-.modalContent1:target, .modalContent2:target, .modalContent3:target{
+.modalContent1:target, .modalContent2:target, .modalContent3:target, .modalContent4:target{
 	opacity: 1;
 	pointer-events: auto;
 }
 
-.modalContent1 > div, .modalContent2 > div, .modalContent3 > div{
+.modalContent1 > div, .modalContent2 > div, .modalContent3 > div, .modalContent4 > div{
     background: rgb(228, 232, 235);
     position: relative;
 	margin: 1% auto;
@@ -196,7 +196,7 @@ p > img{
     width: 410px;
 }
 
-.modalContent3 > div {
+.modalContent3 > div, .modalContent4 > div {
     width: 1000px;
 }
 
