@@ -200,6 +200,14 @@ p > img{
     width: 600px;    
 }
 
+#Modal13 > div {
+    width: 1030px;
+}
+
+#Modal15 > div {
+    width: 288px;
+}
+
 #Modal2 > div, #Modal4 > div, #Modal6 > div {
     width: 1000px;
 }
