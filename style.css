@@ -72,11 +72,21 @@ li{
 /*navigation link styling*/
 li a{
     display: inline-block;
-    padding-left: 80px;
+    padding-left: 10px;
     text-decoration: none;
     color: black;
     padding-top: 10px;
     font-weight: 500;
+}
+
+/*navigation link positioning for rest/diagrams pages*/
+#home{
+    padding-left: 80px;
+}
+
+/*navigation link positioning for first link on index page*/
+#aboutMain{
+    padding-left: 80px;
 }
 
 /*link hover glow*/
@@ -157,11 +167,11 @@ figure:hover{
 }
 
 /*gallery image shadow/positioning*/
-p > img{
+.gallery{
     box-shadow: 5px 5px 5px grey;
-    clear: left;
 }
 
+/*All modal styling/positioning*/
 .modal{
 	position: fixed;
 	font-family: 'Heebo', sans-serif;
@@ -175,11 +185,13 @@ p > img{
     background: rgba(255, 255, 255, .7);
 }
 
+/*all modal styling/functionality*/
 .modal:target{
 	opacity: 1;
 	pointer-events: auto;
 }
 
+/*modal background styling*/
 .modal > div{
     background: rgb(228, 232, 235);
     position: relative;
@@ -188,6 +200,7 @@ p > img{
 	border-radius: 10px;   
 }
 
+/*Diagram modal styling*/
 #Modal1 > div {
     width: 550px;
 }
@@ -208,10 +221,12 @@ p > img{
     width: 288px;
 }
 
+/*Video modal styling*/
 #Modal2 > div, #Modal4 > div, #Modal6 > div, #Modal8 > div {
     width: 1000px;
 }
 
+/*modal X-close box styling*/
 .close {
 	background: grey;
 	color: white;
